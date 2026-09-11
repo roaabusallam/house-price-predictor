@@ -69,5 +69,5 @@ if st.button("Predict Price"):
     )[0] #أول توقع
 
     st.success(
-        f"Predicted House Price: ${predicted_price:,.0f}"
+        f"Predicted House Price: ${abs(predicted_price):,.0f}"
     )
